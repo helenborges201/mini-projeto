@@ -1,0 +1,112 @@
+@font-face { 
+    font-family:"idroid";
+    src: url(fontes/idroid.otf) format("opentype");
+    font-weight: normal;
+    font-size: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #83E1AD;
+
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #3DDC84, #2FA866, #063D1E) ;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+nav {
+    text-align: left;
+    padding: 2px;
+    margin: 2px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 2px 3px ;
+    margin: 2px;
+}
+main {
+    background-color: white;
+    padding:4px 4px;
+    margin:  1px 15em;
+    border-radius: 0px 0px 5px 5px ;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.151);
+}
+
+article {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > h1{
+    font-family: "idroid";
+    font-size: 2em ;
+    color:#063D1E ;
+}
+
+article > h2{
+    font-family: "idroid";
+    font-size: 1.5em;
+    color:#063D1E;
+    background-color:#C5EBD6 ;
+    padding: 4px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    height: 500px;
+    width: 750px;
+    display: block;
+    padding-left: 0px;
+    padding-right:0px ;
+    border: 3em solid #063D1E ;
+}
+
+
+#extra{
+    margin: 0px;
+    background-color:#2FA866;
+    background-size: 16px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 1.5em;
+}
+
+
+#principal{
+    height: 400px;
+    display: block;
+    border-radius: 10px;
+    background-color: #C5EBD6;
+    margin: 1em 2em;
+    font-size: 1em;
+}
+#paragrafo{
+    text-align: justify;
+}
+
+#link1{
+   display: block;
+
+}
+
+footer{
+    background-color:#063D1E;
+    height: 1.5em;
+    width: auto;
+}
+footer > p{
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
